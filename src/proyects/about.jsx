@@ -17,7 +17,7 @@ function About() {
         <a href="https://www.linkedin.com/in/alexsoto042/" target="_blank">
           <Social id="Linkedin" />
         </a>
-        <a href="./src/assets/Cv_Alejandro_Martinez.pdf" download>
+        <a href="./Preact/src/assets/Cv_Alejandro_Martinez.pdf" download>
           <Social id="cv" />
         </a>
       </li>
