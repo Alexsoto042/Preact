@@ -6,7 +6,7 @@ function Gato() {
         <a href="https://gato-psi.vercel.app" target="_blank">
           <img
             className="GatoImg"
-            src="./src/assets/gato.png"
+            src="./Preact/src/assets/gato.png"
             alt="Imagen de un gato"
           />
         </a>

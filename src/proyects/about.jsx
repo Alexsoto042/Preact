@@ -5,7 +5,11 @@ function About() {
     <main>
       <li className="Avatar-container">
         <a href="https://github.com/Alexsoto042" target="_blank">
-          <img className="Avatar" src="./src/assets/portada.jpg" alt="" />
+          <img
+            className="Avatar"
+            src="./Preact/src/assets/portada.jpg"
+            alt=""
+          />
         </a>
         <a href="https://github.com/Alexsoto042" target="_blank">
           <Social id="Github" />
@@ -26,7 +30,7 @@ function About() {
         </p>
       </div>
       <div className="Flecha">
-        <img className="Flecha-img" src="./src/assets/flecha.gif" />
+        <img className="Flecha-img" src="./Preact/src/assets/flecha.gif" />
       </div>
     </main>
   );
