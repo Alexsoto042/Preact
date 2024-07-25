@@ -1,13 +1,17 @@
-import { useState } from "react";
 import "./App.css";
-import Nvar from "./components/nvar";
+import Nvar from "./components/nvar/nvar";
+import About from "./proyects/about";
+import Gato from "./proyects/gato";
 
 function App() {
   return (
-    <>
-      <h1>Portafolio</h1>
+    <body>
+      <br />
       <Nvar />
-    </>
+      <About />
+      <Gato />
+      <Gato />
+    </body>
   );
 }
 
