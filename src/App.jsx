@@ -5,13 +5,18 @@ import Gato from "./proyects/gato";
 
 function App() {
   return (
-    <body>
-      <br />
-      <Nvar />
-      <About />
-      <Gato />
-      <Gato />
-    </body>
+    <>
+      <head>
+        <title>Portafolio</title>
+      </head>
+      <body>
+        <br />
+        <Nvar />
+        <About />
+        <Gato />
+        <Gato />
+      </body>
+    </>
   );
 }
 

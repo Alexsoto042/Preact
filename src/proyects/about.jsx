@@ -7,7 +7,7 @@ function About() {
         <a href="https://github.com/Alexsoto042" target="_blank">
           <img
             className="Avatar"
-            src="./Preact/src/assets/portada.jpg"
+            src="./Preact/public/assets/portada.jpg"
             alt=""
           />
         </a>
