@@ -6,9 +6,6 @@ import Gato from "./proyects/gato";
 function App() {
   return (
     <>
-      <head>
-        <title>Portafolio</title>
-      </head>
       <body>
         <br />
         <Nvar />

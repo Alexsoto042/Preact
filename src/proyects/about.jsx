@@ -7,8 +7,8 @@ function About() {
         <a href="https://github.com/Alexsoto042" target="_blank">
           <img
             className="Avatar"
-            src="./Preact/public/assets/portada.jpg"
-            alt=""
+            src="/assets/img/portada2.jpg"
+            alt="portada"
           />
         </a>
         <a href="https://github.com/Alexsoto042" target="_blank">
@@ -17,7 +17,7 @@ function About() {
         <a href="https://www.linkedin.com/in/alexsoto042/" target="_blank">
           <Social id="Linkedin" />
         </a>
-        <a href="./Preact/src/assets/Cv_Alejandro_Martinez.pdf" download>
+        <a href="/assets/Cv_Alejandro_Martinez.pdf" download>
           <Social id="cv" />
         </a>
       </li>
@@ -30,7 +30,7 @@ function About() {
         </p>
       </div>
       <div className="Flecha">
-        <img className="Flecha-img" src="./Preact/src/assets/flecha.gif" />
+        <img className="Flecha-img" src="/assets/img/flecha.gif" alt="flecha" />
       </div>
     </main>
   );

@@ -1,4 +1,5 @@
 import Social from "../components/social";
+
 function Gato() {
   return (
     <main>
@@ -6,8 +7,8 @@ function Gato() {
         <a href="https://gato-psi.vercel.app" target="_blank">
           <img
             className="GatoImg"
-            src="./Preact/src/assets/gato.png"
-            alt="Imagen de un gato"
+            src="/assets/img/gato.png"
+            alt="Imagen del juego gato"
           />
         </a>
         <div className="Texto">
