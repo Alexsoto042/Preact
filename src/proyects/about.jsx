@@ -2,7 +2,7 @@ import Social from "../components/social";
 
 function About() {
   return (
-    <main>
+    <main id="Inicio">
       <li className="Avatar-container">
         <a href="https://github.com/Alexsoto042" target="_blank">
           <img
@@ -22,16 +22,19 @@ function About() {
         </a>
       </li>
       <div className="TextContainer">
-        <h2 className="Titulo">About Me</h2>
+        <h2 className="Titulo">Sobre Mi</h2>
         <p className="Descripcion">
           {
-            "Soy un estudiante de ingeniería en sistemas con un fuerte interés en el desarrollo de software y la tecnología de la información. Poseo habilidades fundamentales en programación, bases de datos y análisis de sistemas. Mi enfoque se centra en la resolución de problemas y la optimización de procesos mediante soluciones tecnológicas innovadoras."
-          }{" "}
+            "Hola, me llamo Alejandro Soto Martínez y soy un estudiante de ingeniería en sistemas con un fuerte interés en el desarrollo de software y la tecnología de la información. Poseo conocimientos en programación y bases de datos. Mi enfoque se centra actualmente en el desarrollo Front-end, pero me gustará llegar a poseer conocimiento de Back-end."
+          }
         </p>
       </div>
       <div className="Flecha">
         <img className="Flecha-img" src="/assets/img/flecha.gif" alt="flecha" />
       </div>
+      <h2 id="Proyectos" className="proyecto">
+        Proyectos
+      </h2>
     </main>
   );
 }

@@ -11,7 +11,6 @@ function App() {
         <Nvar />
         <About />
         <Gato />
-        <Gato />
       </body>
     </>
   );
