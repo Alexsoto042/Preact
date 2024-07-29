@@ -1,10 +1,10 @@
 import Default from "../components/default";
 
-function Gato() {
+function Sp() {
   return (
     <>
       <Default
-        src={"/assets/img/gato.png"}
+        src={"/assets/img/email.png"}
         title={"Juego De Gato"}
         id1={"React"}
         ide2={"Javascript"}
@@ -17,4 +17,4 @@ function Gato() {
   );
 }
 
-export default Gato;
+export default Sp;
