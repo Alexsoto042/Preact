@@ -26,7 +26,13 @@ body {
   text-decoration: none;
   margin-right: 1em;
   margin-left: 1em;
-  font-size: 1em;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.Nvar a:hover {
+  box-shadow: 0px 1px 1px;
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 .Avatar-container {
@@ -54,20 +60,37 @@ body {
   position: relative;
   font-size: 1em;
   right: 15%;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+#Github:hover {
+  box-shadow: 0px 1px 3px;
+  cursor: pointer;
+  transform: scale(1.1);
 }
 #Linkedin {
   position: relative;
   font-size: 1em;
   right: 15%;
   margin-left: 00.6em;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+#Linkedin:hover {
+  box-shadow: 0px 1px 3px;
+  cursor: pointer;
+  transform: scale(1.1);
 }
 #cv {
   position: absolute;
   font-size: 1em;
   right: 0%;
   margin-left: 00.6em;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
-
+#cv:hover {
+  box-shadow: 0px 1px 3px;
+  cursor: pointer;
+  transform: scale(1.1);
+}
 .Container {
   display: flex;
   align-items: center;
@@ -81,6 +104,11 @@ body {
   border-radius: 10%;
   object-fit: cover;
   margin-right: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.GatoImg:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 2px 8px;
 }
 
 .Texto {

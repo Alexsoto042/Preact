@@ -4,13 +4,7 @@ function About() {
   return (
     <main id="Inicio">
       <li className="Avatar-container">
-        <a href="https://github.com/Alexsoto042" target="_blank">
-          <img
-            className="Avatar"
-            src="/assets/img/portada2.jpg"
-            alt="portada"
-          />
-        </a>
+        <img className="Avatar" src="/assets/img/portada2.jpg" alt="portada" />
         <a href="https://github.com/Alexsoto042" target="_blank">
           <Social id="Github" />
         </a>
