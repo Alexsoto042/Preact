@@ -1,9 +1,9 @@
 import Social from "../components/social";
-const Default = ({ title, descrip, src, id1, ide2, ide3 }) => {
+const Default = ({ title, descrip, src, id1, ide2, ide3, url }) => {
   return (
     <main>
       <div className="Container">
-        <a href="https://gato-psi.vercel.app" target="_blank">
+        <a href={url} target="_blank">
           <img className="GatoImg" src={src} alt="Imagen del juego gato" />
         </a>
         <div className="Texto">

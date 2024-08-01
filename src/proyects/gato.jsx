@@ -9,8 +9,9 @@ function Gato() {
         id1={"React"}
         ide2={"Javascript"}
         ide3={"Css"}
+        url={"https://gato-psi.vercel.app"}
         descrip={
-          "Este proyecto es un juego de gato desarrollado con React, JavaScript y CSS."
+          "El Juego de Gato es una aplicación web interactiva desarrollada en React que permite a dos jugadores competir en el clásico juego de tres en línea."
         }
       />
     </>
