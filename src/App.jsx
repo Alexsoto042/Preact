@@ -1,6 +1,7 @@
 import "./App.css";
 import Nvar from "./components/nvar/nvar";
 import About from "./proyects/about";
+import Ggifs from "./proyects/g-gifs";
 import Gato from "./proyects/gato";
 import Pcolors from "./proyects/Pcolors";
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <About />
         <Gato />
         <Pcolors />
+        <Ggifs />
       </body>
     </>
   );
